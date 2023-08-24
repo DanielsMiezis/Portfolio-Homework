@@ -1,0 +1,90 @@
+body{
+    background-color: white;
+}
+header {
+  height: 100px;
+  background-color: #011324;
+}
+#contact{
+position: absolute;
+margin-right: 30;
+}
+.nav{
+    margin-left: 5%;
+    padding-right: 5%;
+}
+.nav-item {
+  color: white;
+  margin-right: 20px;
+  padding-right: 5px;
+  padding-top: 35px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.navbar-brand{
+    color: white;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 600;
+    position:absolute;
+    padding-top: 15px;
+    margin-right: 5%;
+    padding-left: 5%;
+}
+.list li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #011324;
+}
+.list h5 {
+  color: #011324;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+}
+.list h4 {
+  color: #011324;
+  font-size: 22px;
+}
+.experience h3{
+    margin-left: 15px;
+    padding-bottom: 10px;
+    margin-top: 15%;
+    font-size: 35px;
+    color: #011324;
+}
+.experience {
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 600px;
+}
+#profile-pic{
+justify-content: left;
+width: 600px;
+height: 600px;
+}
+.container-fluid{
+justify-content: left;
+}
+.footer{
+  height: 100px;
+  background-color: #011324;
+}
+.aboutme-p{
+background-color: #011324;
+width: 450px;
+height: 200px;
+border-radius: 15px;
+padding-top: 3%;
+padding-left: 15%;
+margin-left: 7%;
+font-size: 32px;
+color: white;
+font-weight: 500;
+}
+.cover-letter{
+background-color: transparent;
+position: left;
+}
