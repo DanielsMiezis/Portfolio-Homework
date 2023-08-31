@@ -27,7 +27,7 @@ margin-right: 30;
     font-style: italic;
     font-size: 40px;
     font-weight: 600;
-    position:absolute;
+    position:fixed;
     padding-top: 15px;
     margin-right: 5%;
     padding-left: 5%;
@@ -87,4 +87,8 @@ font-weight: 500;
 .cover-letter{
 background-color: transparent;
 position: left;
+}
+.head-whole{
+position: sticky;
+top: 0;
 }
