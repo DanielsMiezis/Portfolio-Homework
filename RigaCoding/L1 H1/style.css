@@ -13,6 +13,7 @@ footer {
   width: 100%;
   bottom: 0;
   background-color: #011324;
+  position: absolute;
 }
 
 .nav{
@@ -47,58 +48,56 @@ footer {
     margin-right: 5%;
     padding-left: 5%;
 }
-
-.list{
-  margin-bottom: 50px;
-}
 .list li {
   font-size: 14px;
   font-weight: 400;
   color: #011324;
 }
-.list h5 {
+. h5 {
   color: #011324;
   font-style: italic;
   font-weight: 400;
   font-size: 16px;
 }
-.list h4 {
+h4 {
   color: #011324;
   font-size: 22px;
 }
 .experience h3{
-    margin-left: 15px;
     padding-bottom: 10px;
-    margin-top: 15%;
     font-size: 35px;
     color: #011324;
+    padding-left: 15px;
 }
 .experience {
-    justify-content: center;
-    margin-top: 40px;
+    justify-content: left;
     margin-left: 150px;
     width: 600px;
+    padding-top: 35px;
 }
 #profile-pic{
-justify-content: left;
 width: 600px;
 height: 600px;
+display: flex;
+margin: 0;
+padding: 0;
 }
 .container-fluid{
-justify-content: left;
+display: flex;
+justify-content: center;
 }
 .aboutme-p{
-  background-color: #011324;
+  background-color: transparent;
   width: 450px;
   height: auto;
-  border-radius: 15px;
-  padding-top: 3%;
+  border-radius: 30px;
+  padding-top: 4%;
   padding-left: 3%;
-  margin-left: 8%;
+  margin-left: 10%;
   font-size: 17px;
-  color: white;
+  color: black;
   font-weight: 500;
-  
+  text-align: center;
   }
 .cover-letter{
 background-color: transparent;
@@ -155,4 +154,33 @@ justify-content: center;
 /* Style the active page */
 .nav-item.active a::before {
   background-color: #007bff; /* Change to your desired active color */
+}
+.tag {
+  position: absolute;
+  float: right;
+  left: 18rem;
+  top: 41rem;
+  padding: 5px;
+  font-weight: bold;
+  display: flex;
+  width: 30rem;
+  height: 3rem;
+  background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 35%);
+}
+summary{
+  color: #011324;
+  font-size: 22px;
+  display: block;
+}
+  summary::before {
+    margin-left: 1ch;
+    display: inline-block;
+    content: "✢\00a0\00a0";
+    transition: 0.2s;
+    color: green;
+  }
+  details[open] > summary::before {
+    transform: rotate(90deg);
+    color: red;
 }
