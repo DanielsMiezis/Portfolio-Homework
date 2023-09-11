@@ -5,8 +5,9 @@ body{
     position: relative;
 }
 header {
-  height: 4vw;
+  height: 8vh;
   background-color: #011324;
+  position: absolute;
 }
 footer {
   width: 100%;
@@ -17,6 +18,7 @@ footer {
 .nav{
     margin-left: 5%;
     padding-right: 5%;
+    position: relative;
 }
 
 .nav-item {
@@ -44,6 +46,10 @@ footer {
     padding-top: 10px;
     margin-right: 5%;
     padding-left: 5%;
+}
+
+.list{
+  margin-bottom: 50px;
 }
 .list li {
   font-size: 14px;
