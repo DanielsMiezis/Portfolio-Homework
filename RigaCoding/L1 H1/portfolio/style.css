@@ -1,0 +1,111 @@
+body{
+    background-color: white;
+    min-height: 100vh;
+    min-width: 100vw;
+    position: relative;
+}
+header {
+  height: 8vh;
+  background-color: #011324;
+  position: absolute;
+}
+footer {
+  width: 100%;
+  bottom: 0;
+  background-color: #011324;
+  position: absolute;
+}
+
+.nav{
+    margin-left: 5%;
+    padding-right: 5%;
+    position: relative;
+}
+
+.nav-item {
+  color: white;
+  margin-right: 20px;
+  padding-right: 5px;
+  padding-top: 25px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+}
+.nav-item:hover {
+  border-bottom: 2px solid white;
+   
+}
+.navbar-brand{
+    color: white;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 600;
+    position:fixed;
+    padding-top: 10px;
+    margin-right: 5%;
+    padding-left: 5%;
+}
+.head-whole{
+position: sticky;
+top: 0;
+}
+
+.bi-linkedin{
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.bi-facebook{
+    color: white;
+    font-size: 30px;
+    
+  }
+  #f-logo-cont{
+    display: flex;
+  justify-content: center;
+  
+  }
+  .bi-github{
+    color: white;
+    font-size: 30px;
+  }
+  .foot-logos{
+    justify-content: left;
+  
+  }
+  .nav-item a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Style the hover animation */
+  .nav-item a:hover::before {
+    background-color: #007bff; /* Change to your desired hover color */
+  }
+  
+  /* Style the active page */
+  .nav-item.active a::before {
+    background-color: #007bff; /* Change to your desired active color */
+  }
+
+  #test1{
+    border-color: #007bff;
+    border: 1px;
+    background-color: red;
+    border-style: solid;
+  }
+  #test2{
+    border: red;
+    border-width: 2px;
+    border-style: solid;
+  }
