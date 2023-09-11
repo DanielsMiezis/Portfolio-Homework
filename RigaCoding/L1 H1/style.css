@@ -1,8 +1,9 @@
 body{
     background-color: white;
     min-height: 100vh;
-    min-width: 100vh;
-    position: relative;
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
 }
 header {
   height: 8vh;
@@ -13,7 +14,8 @@ footer {
   width: 100%;
   bottom: 0;
   background-color: #011324;
-  position: absolute;
+  position: fixed;
+  height: 6vh;
 }
 
 .nav{
@@ -35,7 +37,7 @@ footer {
   transition: border-bottom 0.3s ease;
 }
 .nav-item:hover {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid rgb(33, 142, 245);
    
 }
 .navbar-brand{
@@ -59,7 +61,7 @@ footer {
   font-weight: 400;
   font-size: 16px;
 }
-h4 {
+h4{
   color: #011324;
   font-size: 22px;
 }
@@ -67,13 +69,13 @@ h4 {
     padding-bottom: 10px;
     font-size: 35px;
     color: #011324;
-    padding-left: 15px;
+    padding-left: 6rem;
 }
 .experience {
     justify-content: left;
     margin-left: 150px;
     width: 600px;
-    padding-top: 35px;
+    padding-top: 10rem;
 }
 #profile-pic{
 width: 600px;
@@ -115,26 +117,35 @@ top: 0;
   font-size: 30px;
   padding-left: 10px;
   padding-right: 10px;
+  &:hover {
+    color: rgb(11, 136, 252);
+  }
+  
 
 }
 .bi-facebook{
   color: white;
   font-size: 30px;
+  &:hover {
+    color: rgb(11, 136, 252);
+  }
+  
   
 }
 #f-logo-cont{
   display: flex;
 justify-content: center;
-
+padding-top: 0.5rem;
 }
 .bi-github{
   color: white;
   font-size: 30px;
+  &:hover {
+    color: rgb(11, 136, 252);
+  }
+  
 }
-.foot-logos{
-  justify-content: left;
 
-}
 .nav-item a::before {
   content: '';
   position: absolute;
@@ -146,15 +157,6 @@ justify-content: center;
   transition: background-color 0.3s ease-in-out;
 }
 
-/* Style the hover animation */
-.nav-item a:hover::before {
-  background-color: #007bff; /* Change to your desired hover color */
-}
-
-/* Style the active page */
-.nav-item.active a::before {
-  background-color: #007bff; /* Change to your desired active color */
-}
 .tag {
   position: absolute;
   float: right;
@@ -169,18 +171,43 @@ justify-content: center;
 background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 35%);
 }
 summary{
-  color: #011324;
+  color: black;
+  background: #011324;
+  background-color: white;
   font-size: 22px;
-  display: block;
+  margin-bottom: 1em;
+  outline: #011324;
+  border-radius: .3em;
+  font-weight: bold;
+  transition: background-color .3s;
+  display: flex;
+
+  &:hover {
+    color: rgb(11, 136, 252);
+  }
 }
   summary::before {
     margin-left: 1ch;
     display: inline-block;
-    content: "✢\00a0\00a0";
+    content: url(expand_more_FILL0_wght400_GRAD0_opsz24.svg);
     transition: 0.2s;
-    color: green;
   }
   details[open] > summary::before {
-    transform: rotate(90deg);
-    color: red;
+    transform: rotate(180deg);
+}
+
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+  from {
+    opacity: 0; margin-top: -10px;
+  }
+  to {
+    opacity: 1; margin-top: 0;
+  }
+}
+.footer-no-hide-content-plz{
+height: 9vh;
 }
