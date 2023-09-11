@@ -2,7 +2,7 @@ body{
     background-color: white;
 }
 header {
-  height: 100px;
+  height: 4vw;
   background-color: #011324;
 }
 #contact{
@@ -91,4 +91,27 @@ position: left;
 .head-whole{
 position: sticky;
 top: 0;
+}
+.bi-linkedin{
+  color: white;
+  font-size: 30px;
+
+}
+.bi-facebook{
+  color: white;
+  font-size: 30px;
+ 
+}
+#f-logo-cont{
+  display: flex;
+justify-content: center;
+padding-top: 33px;
+}
+.bi-github{
+  color: white;
+  size: 30px;
+  font-size: 30px;
+}
+.foot-logos{
+  justify-content: left;
 }
