@@ -211,3 +211,267 @@ details[open] summary ~ * {
 .footer-no-hide-content-plz{
 height: 9vh;
 }
+@media only screen and (max-width: 375px){
+.body{
+width: 80%;  
+}
+col.li{
+  font-size: 6px;
+}
+li + li {
+  margin-top: 10px;
+}
+#profile-pic {
+ width: auto;
+ height: 200px;
+ display: flex;
+ padding-left: 33px;
+ margin-right: 0;
+}
+.nav-item {
+  justify-content: right;
+  justify-items: flex-end;
+  justify-content: space-evenly;
+  font-size: 0.5rem;
+  margin-right:0;
+}
+.navbar-brand{
+ font-size: 0.8rem;
+ padding-top: 1.2rem;
+ margin-right: 0;
+}
+footer {
+  width: 100vw;
+  bottom: 0;
+  position: fixed;
+  height: 6vh;
+}
+#f-logo-cont{
+  display: flex;
+justify-content: center;
+padding-top: 0;
+}
+header {
+  width: 100vw;
+  position: absolute;
+}
+.experience h3{
+font-size: 12px;
+margin-left: 4rem;
+margin-bottom: 1rem;
+width: 80%;
+padding: 0;
+}
+.experience{
+margin-left: 1.5rem;
+padding: 0;
+width: 80%;
+text-wrap: wrap;
+overflow-wrap: break-word;
+}
+details.li{
+font-size: 6px;
+}
+details{
+font-size: 10px;
+padding-left: 20px;
+margin-right: 0;
+}
+details h5{
+  font-size: 8px;
+  margin-left: 2rem;
+  padding-top: 0.5rem;
+}
+summary{
+ font-size: 10px; 
+ margin:0;
+ padding: 0;
+ width: 80%;
+ height: auto;
+}
+.row{
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.aboutme-p{
+  margin-right:0;
+  padding-right: 0;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+.tag{
+  margin: 0;
+  position: absolute;
+  float: left;
+  left: 6.4rem;
+  top: 15rem;
+  padding: 0px;
+  font-weight: bold;
+  display: flex;
+  width: 9.5rem;
+  height: 0.8rem;
+  padding: 0;
+  display: none;
+}
+.my-picture.col{
+ width: 80%;
+height: auto;
+}
+.cover-letter{
+  width: 80%;
+  overflow-wrap: break-word;
+  font-size: 8px;
+  padding-top: 0.8rem;
+  margin-left: 4rem;
+  font-weight: 500;
+}
+.row{
+  width: 80%;
+}
+.cover-letter{
+width: 80%;
+overflow-wrap: break-word;
+font-size: 8px;
+}
+h3{
+  width: 80%;
+}
+.container-fluid{
+padding: 0;
+margin: 0;
+}
+}
+@media only screen and (max-width: 390px){
+.body{
+  width: 80%;  
+  }
+  col.li{
+    font-size: 6px;
+  }
+  li + li {
+    margin-top: 10px;
+  }
+  #profile-pic {
+   width: auto;
+   height: 200px;
+   display: flex;
+   padding-left: 33px;
+   margin-right: 0;
+  }
+  .nav-item {
+    justify-content: right;
+    justify-items: flex-end;
+    justify-content: space-evenly;
+    font-size: 0.5rem;
+    margin-right:0;
+  }
+  .navbar-brand{
+   font-size: 0.8rem;
+   padding-top: 1.2rem;
+   margin-right: 0;
+  }
+  footer {
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+    height: 6vh;
+  }
+  #f-logo-cont{
+    display: flex;
+  justify-content: center;
+  padding-top: 0;
+  }
+  header {
+    width: 100vw;
+    position: absolute;
+  }
+  .experience h3{
+  font-size: 12px;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+  width: 80%;
+  padding: 0;
+  }
+  .experience{
+  margin-left: 1.5rem;
+  padding: 0;
+  width: 80%;
+  text-wrap: wrap;
+  overflow-wrap: break-word;
+  }
+  details.li{
+  font-size: 6px;
+  }
+  details{
+  font-size: 10px;
+  padding-left: 20px;
+  margin-right: 0;
+  }
+  details h5{
+    font-size: 8px;
+    margin-left: 2rem;
+    padding-top: 0.5rem;
+  }
+  summary{
+   font-size: 10px; 
+   margin:0;
+   padding: 0;
+   width: 80%;
+   height: auto;
+  }
+  .row{
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .aboutme-p{
+    margin-right:0;
+    padding-right: 0;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+  }
+  .tag{
+    margin: 0;
+    position: absolute;
+    float: left;
+    left: 6.4rem;
+    top: 15rem;
+    padding: 0px;
+    font-weight: bold;
+    display: flex;
+    width: 9.5rem;
+    height: 0.8rem;
+    padding: 0;
+    display: none;
+  }
+  .my-picture.col{
+   width: 80%;
+  height: auto;
+  }
+  .cover-letter{
+    width: 80%;
+    overflow-wrap: break-word;
+    font-size: 8px;
+    padding-top: 0.8rem;
+    margin-left: 4rem;
+    font-weight: 500;
+  }
+  .row{
+    width: 80%;
+  }
+  .cover-letter{
+  width: 80%;
+  overflow-wrap: break-word;
+  font-size: 8px;
+  }
+  h3{
+    width: 80%;
+  }
+  .container-fluid{
+  padding: 0;
+  margin: 0;
+  }
+}
