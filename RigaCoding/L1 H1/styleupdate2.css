@@ -180,17 +180,15 @@ summary{
   border-radius: .3em;
   font-weight: bold;
   transition: background-color .3s;
-  display: flex;
-
+  list-style:url(expand_more_FILL0_wght400_GRAD0_opsz24.svg) ;
   &:hover {
     color: rgb(11, 136, 252);
   }
 }
   summary::before {
     margin-left: 1ch;
-    display: inline-block;
-    content: url(expand_more_FILL0_wght400_GRAD0_opsz24.svg);
     transition: 0.2s;
+  
   }
   details[open] > summary::before {
     transform: rotate(180deg);
